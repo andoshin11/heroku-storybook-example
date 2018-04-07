@@ -7,5 +7,5 @@ storiesOf("Buttons", module)
   .addDecorator(VueInfoAddon)
   .add("primary", () => ({
     components: { Button },
-    template: `<Button text="sample button"/>`
+    template: `<Button text="hoge button"/>`
   }));
