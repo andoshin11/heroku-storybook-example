@@ -9,9 +9,11 @@
     "e2e": "vue-cli-service e2e",
     "lint": "vue-cli-service lint",
     "e2e:open": "vue-cli-service e2e:open",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook -c .storybook -o storybook-static"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1",
