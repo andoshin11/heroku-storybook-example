@@ -10,7 +10,9 @@
     "lint": "vue-cli-service lint",
     "e2e:open": "vue-cli-service e2e:open",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "build-storybook": "build-storybook -c .storybook -o storybook-static"
+    "build-storybook": "build-storybook -c .storybook -o storybook-static",
+    "heroku-postbuild": "npm run build-storybook",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.3",
